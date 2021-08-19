@@ -1,6 +1,6 @@
 <?php
 
-namespace Marshmallow\NovaStyling;
+namespace EssexInteractive\NovaStyling;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;
@@ -43,12 +43,12 @@ class ThemeServiceProvider extends ServiceProvider
 
         // Publish Public CSS for login screen
         $this->publishes([
-            self::CSS_PATH => public_path('vendor/marshmallow/nova-styling'),
+            self::CSS_PATH => public_path('vendor/essex-interactive/nova-styling'),
         ], 'styling');
 
         // Sets CSS file as asset
-        Nova::theme(asset('vendor/marshmallow/nova-styling/marshmallow-theme.css'));
-        Nova::theme(asset('vendor/marshmallow/nova-styling/responsive.css'));
+        Nova::theme(asset('vendor/essex-interactive/nova-styling/essex-interactive-theme.css'));
+        Nova::theme(asset('vendor/essex-interactive/nova-styling/responsive.css'));
     }
 
     /**

@@ -1,6 +1,6 @@
 <?php
 
-namespace Marshmallow\NovaStyling;
+namespace EssexInteractive\NovaStyling;
 
 class Theme
 {

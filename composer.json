@@ -1,18 +1,18 @@
 {
-    "name": "marshmallow/nova-styling",
-    "version": "v2.0.0",
-    "description": "A Responsive Laravel Nova Marshmallow Theme based on 'A Responsive Laravel Nova theme'. With dark mode :)",
+    "name": "essex-interactive/nova-styling",
+    "version": "v2.0.1",
+    "description": "A Responsive Laravel Nova essex-interactive Theme based on 'A Responsive Laravel Nova theme'. With dark mode :)",
     "keywords": [
         "Laravel Nova Theme",
-        "Marshmallow Theme",
+        "essex-interactive Theme",
         "Dark Mode",
         "Laravel Nova Dark Mode",
-        "Marshmallow",
+        "essex-interactive",
         "laravel",
         "nova",
         "Responsive Laravel Nova Theme"
     ],
-    "homepage": "https://github.com/marshmallow-packages/nova-styling",
+    "homepage": "https://github.com/essex-interactive/nova-styling",
     "license": "MIT",
     "authors": [
         {
@@ -26,6 +26,11 @@
             "email": "lars@kort.dev",
             "homepage": "https://kort.dev/",
             "role": "Developer"
+        },
+        {
+            "name": "Essex Interactive",
+            "homepage": "https://github.com/Essex-Interactive",
+            "role": "Developer"
         }
     ],
     "require": {
@@ -35,18 +40,18 @@
     "require-dev": {},
     "autoload": {
         "psr-4": {
-            "Marshmallow\\NovaStyling\\": "src"
+            "essex-interactive\\NovaStyling\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Marshmallow\\NovaStyling\\": "src"
+            "essex-interactive\\NovaStyling\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Marshmallow\\NovaStyling\\ThemeServiceProvider"
+                "essex-interactive\\NovaStyling\\ThemeServiceProvider"
             ]
         }
     },
