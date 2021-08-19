@@ -51,7 +51,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "essex-interactive\\NovaStyling\\ThemeServiceProvider"
+                "EssexInteractive\\NovaStyling\\ThemeServiceProvider"
             ]
         }
     },
