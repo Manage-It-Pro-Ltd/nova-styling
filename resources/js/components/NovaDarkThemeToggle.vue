@@ -72,7 +72,7 @@
     right: 0px;
     width: 50px;
     height: 50px;
-    background: #fc143c;
+    background: #ff5500;
     border-radius: .6rem 0 0;
     padding: 1rem .6rem .6rem .8rem;
 }
@@ -80,17 +80,17 @@
     background: #161c22;
 }
 .dark-mode-toggle:hover {
-    background-color: #fc4462;
+    background-color: #ff5577;
 }
 .dark-mode-toggle:focus {
     outline: none;
 }
 .nova-dark-theme .dark-mode-toggle:hover{
-    background: #0e1217;
+    background: #ff5577;
 }
 .dark-mode-active {
     margin-bottom: -2px;
-    color: #ffc107;
+    color: #ff5500;
 }
 .dark-mode-disabled {
     margin-bottom: -2px;
