@@ -14,9 +14,9 @@ composer require marshmallow/nova-styling
 ### Vendor Publish
 This theme includes adapted Nova blade files and a config file with options based on Nova Responsive Theme. To use them, first publish the config file:
 ```bash
-php artisan vendor:publish --provider="Marshmallow\NovaStyling\ThemeServiceProvider" --tag="config" --force
-php artisan vendor:publish --provider="Marshmallow\NovaStyling\ThemeServiceProvider" --tag="views" --force
-php artisan vendor:publish --provider="Marshmallow\NovaStyling\ThemeServiceProvider" --tag="styling" --force
+php artisan vendor:publish --provider="EssexInteractive\NovaStyling\ThemeServiceProvider" --tag="config" --force
+php artisan vendor:publish --provider="EssexInteractive\NovaStyling\ThemeServiceProvider" --tag="views" --force
+php artisan vendor:publish --provider="EssexInteractive\NovaStyling\ThemeServiceProvider" --tag="styling" --force
 ```
 
 ## Changelog
