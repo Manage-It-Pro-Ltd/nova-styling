@@ -7,8 +7,16 @@ This package customizes Laravel Nova with the original Marshmallow styling. Impl
 [![marshmallow-nova-styling-example](https://marshmallow.dev/cdn/readme/nova-custom/custom-styling-darkmode.png)](https://marshmallow.dev)
 
 ### Installation
-```bash
-composer require marshmallow/nova-styling
+```json
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Essex-Interactive/Nova-Styling"
+        }
+    ],
+    "require": {
+        "essex-interactive/nova-styling": "^2.0.0"
+    }
 ```
 
 ### Vendor Publish
