@@ -63,20 +63,20 @@ html.nova-dark-theme {
         color: #c9d1d9 !important;
 
         &:hover {
-            color: #ff113b !important;
+            color: rgb(255, 85, 0, 1) !important;
             opacity: 1;
         }
     }
 
     .multiselect__option--highlight,
     .multiselect__option--highlight::after {
-        background-color: #ff113b;
-        background: #ff113b;
+        background-color: rgb(255, 85, 0, 1);
+        background: rgb(255, 85, 0, 1);
     }
 
     .bg-logo {
         background-color: #161b22;
-        color: #ff113b !important;
+        color: rgb(255, 85, 0, 1) !important;
     }
 
     .markdown {
@@ -85,7 +85,7 @@ html.nova-dark-theme {
 
     .text-primary,
     .cursor-pointer:hover {
-        color: #ff113b !important;
+        color: rgb(255, 85, 0, 1) !important;
 
         &:visited {
             color: inherit !important;
@@ -179,12 +179,12 @@ html.nova-dark-theme {
     .relationship-tabs-panel .tab {
         color: #cfd3d8;
         &:hover {
-            color: #ff113b;
+            color: rgb(255, 85, 0, 1);
         }
     }
 
     .btn-outline {
-        color: #ff113b;
+        color: rgb(255, 85, 0, 1);
     }
 
     .tooltip,

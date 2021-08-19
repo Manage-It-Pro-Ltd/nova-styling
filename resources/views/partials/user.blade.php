@@ -1,14 +1,11 @@
-<dropdown-trigger class="h-9 flex items-center p-relative">
-
-    <img src="https://marshmallow.dev/cdn/media/mrmallow-250x250.png" class="mrmallow rounded-full w-8 h-8 mr-3"/>
-
-    @if (class_exists('\Marshmallow\Translatable\Models\Language'))
-        <img src="{{ \Marshmallow\Translatable\Models\Language::currentTranslatableModel()->getIcon() }}"
-             class="current-language-header-icon rounded-full w-8 h-8 mr-3"/>
-    @endif
+<dropdown-trigger class="h-9 flex items-center">
+    <img
+        src="{{ $user->profile_photo_url }}" alt="{{ $user->name }}"
+        class="w-8 h-8 mr-3 rounded-full"
+    />
 
     <span class="text-90">
-        {{ $user->name ?? $user->email ?? __('Marshmallow User') }}
+        {{ $user->name ?? $user->email ?? __('Nova User') }}
     </span>
 </dropdown-trigger>
 
