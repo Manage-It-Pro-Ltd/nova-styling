@@ -192,7 +192,7 @@
 	function(e, t, n) {
 		(e.exports = n(6)(!1)).push([
 			e.i,
-			".dark-mode-toggle[data-v-1fda6f16]{position:fixed;bottom:0;right:0;width:50px;height:50px;background:#ff5500;border-radius:.6rem 0 0;padding:1rem .6rem .6rem .8rem}.nova-dark-theme .dark-mode-toggle[data-v-1fda6f16]{background:#161c22}.dark-mode-toggle[data-v-1fda6f16]:hover{background-color:#ff5577}.dark-mode-toggle[data-v-1fda6f16]:focus{outline:none}.nova-dark-theme .dark-mode-toggle[data-v-1fda6f16]:hover{background:#ff5577}.dark-mode-active[data-v-1fda6f16]{margin-bottom:-2px;color:#ff5500}.dark-mode-disabled[data-v-1fda6f16]{margin-bottom:-2px;-webkit-transform:rotate(180deg);transform:rotate(180deg);color:rgb(255 255 255)}",
+			".dark-mode-toggle[data-v-1fda6f16]{position:fixed;bottom:0;right:0;width:50px;height:50px;background:#ff5500;border-radius:.6rem 0 0;padding:1rem .6rem .6rem .8rem}.nova-dark-theme .dark-mode-toggle[data-v-1fda6f16]{background:#161c22}.dark-mode-toggle[data-v-1fda6f16]:hover{background-color:#ff5577}.dark-mode-toggle[data-v-1fda6f16]:focus{outline:none}.nova-dark-theme .dark-mode-toggle[data-v-1fda6f16]:hover{background:#ff5577}.dark-mode-active[data-v-1fda6f16]{margin-bottom:-2px;color:#ffffff}.dark-mode-disabled[data-v-1fda6f16]{margin-bottom:-2px;-webkit-transform:rotate(180deg);transform:rotate(180deg);color:rgb(255 255 255)}",
 			"",
 		]);
 	},
