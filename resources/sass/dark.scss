@@ -63,20 +63,20 @@ html.nova-dark-theme {
         color: #c9d1d9 !important;
 
         &:hover {
-            color: #ff5500 !important;
+            color: #7C3AED !important;
             opacity: 1;
         }
     }
 
     .multiselect__option--highlight,
     .multiselect__option--highlight::after {
-        background-color: #ff5500;
-        background: #ff5500;
+        background-color: #7C3AED;
+        background: #7C3AED;
     }
 
     .bg-logo {
         background-color: #161b22;
-        color: #ff5500 !important;
+        color: #7C3AED !important;
     }
 
     .markdown {
@@ -85,7 +85,7 @@ html.nova-dark-theme {
 
     .text-primary,
     .cursor-pointer:hover {
-        color: #ff5500 !important;
+        color: #7C3AED !important;
 
         &:visited {
             color: inherit !important;
@@ -179,12 +179,12 @@ html.nova-dark-theme {
     .relationship-tabs-panel .tab {
         color: #cfd3d8;
         &:hover {
-            color: #ff5500;
+            color: #7C3AED;
         }
     }
 
     .btn-outline {
-        color: #ff5500;
+        color: #7C3AED;
     }
 
     .tooltip,
@@ -237,7 +237,7 @@ html.nova-dark-theme {
     }
 
     .checkbox:checked {
-        background-color: #ff5577;
+        background-color: #F87171;
     }
 
     select {

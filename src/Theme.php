@@ -1,6 +1,6 @@
 <?php
 
-namespace EssexInteractive\NovaStyling;
+namespace ManageItProLtd\NovaStyling;
 
 class Theme
 {
