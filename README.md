@@ -11,20 +11,20 @@ This package customizes Laravel Nova with the original Marshmallow styling. Impl
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/Essex-Interactive/Nova-Styling"
+            "url": "https://github.com/Manage-It-Pro-Ltd/Nova-Styling"
         }
     ],
     "require": {
-        "essex-interactive/nova-styling": "^2.0.0"
+        "manage-it-pro-ltd/nova-styling": "^2.0.0"
     }
 ```
 
 ### Vendor Publish
 This theme includes adapted Nova blade files and a config file with options based on Nova Responsive Theme. To use them, first publish the config file:
 ```bash
-php artisan vendor:publish --provider="EssexInteractive\NovaStyling\ThemeServiceProvider" --tag="config" --force
-php artisan vendor:publish --provider="EssexInteractive\NovaStyling\ThemeServiceProvider" --tag="views" --force
-php artisan vendor:publish --provider="EssexInteractive\NovaStyling\ThemeServiceProvider" --tag="styling" --force
+php artisan vendor:publish --provider="ManageItProLtd\NovaStyling\ThemeServiceProvider" --tag="config" --force
+php artisan vendor:publish --provider="ManageItProLtd\NovaStyling\ThemeServiceProvider" --tag="views" --force
+php artisan vendor:publish --provider="ManageItProLtd\NovaStyling\ThemeServiceProvider" --tag="styling" --force
 ```
 
 ## Changelog
